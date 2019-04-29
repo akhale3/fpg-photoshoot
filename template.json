@@ -16,7 +16,10 @@
       "background": "Background for the scene",
       "storyboard": {
         "layout": "Positions of the props and actors in relation to the background",
-        "angles": "Camera angle to shoot from",
+        "angles": [
+          "Camera angle 1 to shoot from",
+          "Camera angle 2 to shoot from"
+        ],
         "time": "Time of day to shoot at",
         "comments": [
           "Comments from the photographer",
