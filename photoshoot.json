@@ -52,5 +52,61 @@
         "comments": []
       }
     }]
+  }, {
+    "name": "Meeting Room",
+    "address": "FPG Atlanta Office",
+    "scenes": [{
+      "name": "Whiteboard",
+      "description": "Observing actor writing on whiteboard",
+      "actors": [
+        "Actor 1",
+        "Actor 2",
+        "Actor 3"
+      ],
+      "props": [
+        "Whiteboard",
+        "Marker",
+        "Table",
+        "Chairs"
+      ],
+      "background": "Window",
+      "storyboard": {
+        "layout": "Board to right with actor writing, table and chairs to the left with actors keenly observing",
+        "angles": [
+          "Straight, with whiteboard actor to right, eye level with standing actor, landscape",
+          "As observer, slight right of table towards end, whiteboard actor to slight left front, other observers to left and right of standing actor, landscape"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }]
+  }, {
+    "name": "Location Name",
+    "address": "Location Address",
+    "scenes": [{
+      "name": "Scene Name",
+      "description": "Description of the scene layout",
+      "actors": [
+        "Actor 1",
+        "Actor 2"
+      ],
+      "props": [
+        "Property 1",
+        "Property 2"
+      ],
+      "background": "Background for the scene",
+      "storyboard": {
+        "layout": "Positions of the props and actors in relation to the background",
+        "angles": [
+          "Camera angle 1 to shoot from",
+          "Camera angle 2 to shoot from"
+        ],
+        "time": "Time of day to shoot at",
+        "comments": [
+          "Comments from the photographer",
+          "Comments from the director"
+        ]
+      }
+    }]
   }]
 }
