@@ -1,0 +1,28 @@
+{
+  "locations": [{
+    "name": "Location Name",
+    "address": "Location Address",
+    "scenes": [{
+      "name": "Scene Name",
+      "description": "Description of the scene layout",
+      "actors": [
+        "Actor 1",
+        "Actor 2"
+      ],
+      "props": [
+        "Property 1",
+        "Property 2"
+      ],
+      "background": "Background for the scene",
+      "storyboard": {
+        "layout": "Positions of the props and actors in relation to the background",
+        "angles": "Camera angle to shoot from",
+        "time": "Time of day to shoot at",
+        "comments": [
+          "Comments from the photographer",
+          "Comments from the director"
+        ]
+      }
+    }]
+  }]
+}
