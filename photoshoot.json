@@ -79,33 +79,76 @@
         "time": "Day",
         "comments": []
       }
-    }]
-  }, {
-    "name": "Location Name",
-    "address": "Location Address",
-    "scenes": [{
-      "name": "Scene Name",
-      "description": "Description of the scene layout",
+    }, {
+      "name": "Computer",
+      "description": "Observing actor typing on computer",
       "actors": [
         "Actor 1",
-        "Actor 2"
+        "Actor 2",
+        "Actor 3"
       ],
       "props": [
-        "Property 1",
-        "Property 2"
+        "Monitor",
+        "Keyboard",
+        "Mouse",
+        "Table",
+        "Chairs"
       ],
-      "background": "Background for the scene",
+      "background": "Window",
       "storyboard": {
-        "layout": "Positions of the props and actors in relation to the background",
+        "layout": "Monitor to left on table with sitting actor typing, chairs behind the table with standing actors keenly observing from the right",
         "angles": [
-          "Camera angle 1 to shoot from",
-          "Camera angle 2 to shoot from"
+          "Straight, eye level with sitting actor, landscape"
         ],
-        "time": "Time of day to shoot at",
-        "comments": [
-          "Comments from the photographer",
-          "Comments from the director"
-        ]
+        "time": "Day",
+        "comments": []
+      }
+    }]
+  }, {
+    "name": "Common Area",
+    "address": "FPG Atlanta Office",
+    "scenes": [{
+      "name": "Plant Watering",
+      "description": "Actor watering plants",
+      "actors": [
+        "Actor 1"
+      ],
+      "props": [
+        "Pot of plant",
+        "Watering jar"
+      ],
+      "background": "World map",
+      "storyboard": {
+        "layout": "Actor to right, facing left, pot of plant to left of actor in foreground",
+        "angles": [
+          "Straight, eye level with actor, landscape"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }, {
+      "name": "Presentation",
+      "description": "Observing actor presenting a slideshow",
+      "actors": [
+        "Actor 1",
+        "Actor 2",
+        "Actor 3",
+        "Actor 4",
+        "Actor 5"
+      ],
+      "props": [
+        "TV",
+        "Tables",
+        "Chairs"
+      ],
+      "background": "Window",
+      "storyboard": {
+        "layout": "TV on table with window in the background, located at the far end of the aisle between two tables, with one actor presenting in standing position, and 4 actors sitting on chairs, 2 on each side of the presenter",
+        "angles": [
+          "Straight, eye level with sitting actors, landscape"
+        ],
+        "time": "Day",
+        "comments": []
       }
     }]
   }]
