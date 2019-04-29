@@ -1,0 +1,56 @@
+{
+  "locations": [{
+    "name": "Game room",
+    "address": "FPG Atlanta Office",
+    "scenes": [{
+      "name": "Video Game",
+      "description": "Video game play with cheering",
+      "actors": [
+        "Actor 1",
+        "Actor 2",
+        "Actor 3"
+      ],
+      "props": [
+        "TV",
+        "Game controller",
+        "Couch",
+        "Chair",
+        "Table",
+        "Game DVDs"
+      ],
+      "background": "Wall",
+      "storyboard": {
+        "layout": "TV on left with game visible on screen, couch on right with 2 actors holding controllers, chair to the wall with 1 actor cheering, table in center with game DVDs visible",
+        "angles": [
+          "Straight, eye level with actors, landscape",
+          "Low, looking up at actors, landscape"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }, {
+      "name": "Putting",
+      "description": "Golf putting in the hallway next to game room",
+      "actors": [
+        "Chris",
+        "Juan",
+        "Actor 3"
+      ],
+      "props": [
+        "Hole",
+        "Clubs",
+        "Golf ball"
+      ],
+      "background": "Bill's office",
+      "storyboard": {
+        "layout": "Game room to right, putter in the center of corridor next to game room in putting position with golf ball in front of club, observer on left behind the putter relaxed on club",
+        "angles": [
+          "Low, looking up at actors from POV of hole, landscape",
+          "Low, looking up at actors from POV of hole, portrait"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }]
+  }]
+}
