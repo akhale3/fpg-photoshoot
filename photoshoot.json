@@ -182,7 +182,9 @@
       "name": "Report reading",
       "description": "Actor reading a report",
       "actors": [
-        "Bill"
+        "Bill",
+        "Actor 2",
+        "Actor 3"
       ],
       "props": [
         "Monitor",
@@ -192,7 +194,7 @@
       ],
       "background": "Bill's office background wall",
       "storyboard": {
-        "layout": "Actor to left facing right, wall to back of actor, monitor to left of actor in background, plants in background for bokeh",
+        "layout": "Bill to left facing right, walking and reading report, wall to back of actor, other actors to right of table facing Bill, monitor to left of actor in background, plants in background for bokeh",
         "angles": [
           "Table POV, actor to left, looking up at actor"
         ],
@@ -219,6 +221,54 @@
         "layout": "Bill to left facing right, wall to back of actor, monitor to left of actor in background, plants in background for bokeh, other actors to right of table facing Bill",
         "angles": [
           "Diagonal, table and Bill to left, eye level with actors, landscape"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }]
+  }, {
+    "name": "Circa 730 Lobby",
+    "address": "FPG Atlanta Office",
+    "scenes": [{
+      "name": "L-shaped formation",
+      "description": "Actors discussing on L-shaped couch",
+      "actors": [
+        "Actor 1",
+        "Actor 2",
+        "Actor 3"
+      ],
+      "props": [
+        "Couch",
+        "Cycle"
+      ],
+      "background": "Wall with cycle, glass windows",
+      "storyboard": {
+        "layout": "Cycle wall to left, glass window at back, actors on L-shaped couch with back to wall and window",
+        "angles": [
+          "High angle, elevator POV, diagonal, landscape",
+          "Eye-level, elevator POV, diagonal, landscape",
+          "Shoulder POV, cycle wall in background"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }, {
+      "name": "Sharing a laugh",
+      "description": "Actors sharing a laugh in front of LED wall",
+      "actors": [
+        "Actor 1",
+        "Actor 2",
+        "Actor 3"
+      ],
+      "props": [
+        "LED Wall"
+      ],
+      "background": "LED Wall",
+      "storyboard": {
+        "layout": "LED wall in background, 1 actor to left facing right, 2 actors to right facing left, laughing",
+        "angles": [
+          "Straight, eye-level with actors, landscape",
+          "Diagonal, LED wall to right, shoulder POV, landscape"
         ],
         "time": "Day",
         "comments": []
