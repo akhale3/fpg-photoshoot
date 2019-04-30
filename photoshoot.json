@@ -274,5 +274,47 @@
         "comments": []
       }
     }]
+  }, {
+    "name": "GT Tech Square",
+    "address": "5th St NW",
+    "scenes": [{
+      "name": "Office group photo at monument",
+      "description": "Group photo of all employees at Tech Square L-shaped monument",
+      "actors": [
+        "As many as possible"
+      ],
+      "props": [
+        "L-shaped Tech Square Monument"
+      ],
+      "background": "L-shaped Tech Square Monument",
+      "storyboard": {
+        "layout": "Monument in background with actors standing and sitting in arc formation",
+        "angles": [
+          "Eye-level, straight, landscape",
+          "Ground-level, looking up to actors, landscape",
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }, {
+      "name": "GT Alumni group photo at monument",
+      "description": "Group photo of GT Alumni at Tech Square L-shaped monument",
+      "actors": [
+        "GT Alumni employees"
+      ],
+      "props": [
+        "L-shaped Tech Square Monument"
+      ],
+      "background": "L-shaped Tech Square Monument",
+      "storyboard": {
+        "layout": "Monument in background with actors standing and sitting in arc formation",
+        "angles": [
+          "Eye-level, straight, landscape",
+          "Ground-level, looking up to actors, landscape",
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }]
   }]
 }
