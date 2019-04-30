@@ -175,5 +175,54 @@
         "comments": []
       }
     }]
+  }, {
+    "name": "Bill's Corner Office",
+    "address": "FPG Atlanta Office",
+    "scenes": [{
+      "name": "Report reading",
+      "description": "Actor reading a report",
+      "actors": [
+        "Bill"
+      ],
+      "props": [
+        "Monitor",
+        "Table",
+        "Report",
+        "Plants"
+      ],
+      "background": "Bill's office background wall",
+      "storyboard": {
+        "layout": "Actor to left facing right, wall to back of actor, monitor to left of actor in background, plants in background for bokeh",
+        "angles": [
+          "Table POV, actor to left, looking up at actor"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }, {
+      "name": "Business meeting",
+      "description": "Actors engaged in a meeting",
+      "actors": [
+        "Bill",
+        "Actor 2",
+        "Actor 3"
+      ],
+      "props": [
+        "Monitor",
+        "Table",
+        "Chairs",
+        "Papers",
+        "Plants"
+      ],
+      "background": "Bill's office background wall",
+      "storyboard": {
+        "layout": "Bill to left facing right, wall to back of actor, monitor to left of actor in background, plants in background for bokeh, other actors to right of table facing Bill",
+        "angles": [
+          "Diagonal, table and Bill to left, eye level with actors, landscape"
+        ],
+        "time": "Day",
+        "comments": []
+      }
+    }]
   }]
 }
