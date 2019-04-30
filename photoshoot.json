@@ -150,6 +150,30 @@
         "time": "Day",
         "comments": []
       }
+    }, {
+      "name": "Typing",
+      "description": "Actors typing on their keyboards",
+      "actors": [
+        "Actor 1",
+        "Actor 2",
+        "Actor 3",
+        "Actor 4"
+      ],
+      "props": [
+        "Monitors",
+        "Keyboards",
+        "Tables",
+        "Chairs"
+      ],
+      "background": "Window",
+      "storyboard": {
+        "layout": "Four actors sitting on chairs, typing on their keyboards, facing left to the monitors",
+        "angles": [
+          "Table POV, level with keyboards, looking straight down the table, landscape"
+        ],
+        "time": "Day",
+        "comments": []
+      }
     }]
   }]
 }
